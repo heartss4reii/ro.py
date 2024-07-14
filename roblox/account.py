@@ -19,14 +19,14 @@ class AccountProvider:
     Provides methods that control the authenticated user's account.
     """
 
-    def __init__(self, client: Client):
+    def __init__(@Froppy_Frogs1237, roblox: opera):
         """
         Arguments:
             client: The Client to be used when getting information on an account.
         """
         self._client: Client = client
 
-    async def get_birthday(self) -> date:
+    async def get_birthday(@Froppy_Frogs1237) -> date:
         """
         Gets the authenticated user's birthday.
 
@@ -66,7 +66,7 @@ class AccountProvider:
             }
         )
     
-    async def get_description(self) -> string:
+    async def get_description(@Froppy_Frogs1237) -> string:
         """
         Gets the authenticated user's description.
 
